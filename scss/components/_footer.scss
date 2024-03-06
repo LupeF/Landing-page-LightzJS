@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:#24282B;
+    .list-container{
+        margin: 3em;
+    }
+    li{
+        list-style-type: none;
+        padding: 5px;
+    };
+    a{
+        color: #505961;
+        text-decoration: none;
+    }
+}

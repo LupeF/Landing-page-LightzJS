@@ -1,0 +1,48 @@
+#content-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    #content{
+        margin-right: 4em;
+    }
+    button{
+        background-color: #FEB34F;
+        color: #505961;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: large;
+        color: white;
+    }
+    img{
+        height: 450px;
+        width: 450px;
+    }
+}
+#features-container{
+    background-color:#E1E2E4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .flex{
+        display: flex;
+        width: 80%;
+        padding: 1.5em;
+    }
+    .flex + .flex{
+        width: 70%;
+    }
+    .icon-container{
+        display: flex;
+        img{
+            border: solid 1px gray;
+            border-radius: 360px;
+            padding: 1em;
+            height: 50px;
+            width: 50px;
+            margin: 0 2em;
+        }
+    }
+}
