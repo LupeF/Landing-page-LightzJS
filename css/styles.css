@@ -394,6 +394,9 @@ nav #links-container button {
 nav #moon-container {
   position: relative;
 }
+nav #moon-container:hover {
+  cursor: pointer;
+}
 nav #moon-container img {
   height: 15px;
   width: 15px;

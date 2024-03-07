@@ -49,6 +49,9 @@ nav{
     }
     #moon-container{
         position: relative;
+        &:hover{
+            cursor: pointer;
+        }
         img{
             height: 15px;
             width: 15px;
