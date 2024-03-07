@@ -1,3 +1,4 @@
+
 #content-container{
     display: flex;
     justify-content: space-around;
@@ -37,6 +38,9 @@
         display: flex;
         width: 75%;
         padding: 1.5em;
+        @media(min-width: 1400px){
+            padding-left: 10em;
+        }
     }
     .flex + .flex{
         width: 70%;

@@ -337,6 +337,10 @@ template {
   display: none;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 nav {
   background-color: #24282B;
   height: 100px;
@@ -368,6 +372,13 @@ nav #links-container ul li {
 nav #links-container a {
   text-decoration: none;
 }
+nav #links-container input {
+  -webkit-appearance: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 360px;
+  background-color: #505961;
+}
 nav #links-container button {
   background-color: #FEB34F;
   border: none;
@@ -379,6 +390,16 @@ nav #links-container button {
 nav #links-container a,
 nav #links-container button {
   color: #505961;
+}
+nav #moon-container {
+  position: relative;
+}
+nav #moon-container img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  right: 7px;
+  top: 7px;
 }
 
 #content-container {
@@ -422,6 +443,11 @@ nav #links-container button {
   display: flex;
   width: 75%;
   padding: 1.5em;
+}
+@media (min-width: 1400px) {
+  #features-container .flex {
+    padding-left: 10em;
+  }
 }
 #features-container .flex + .flex {
   width: 70%;

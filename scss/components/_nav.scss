@@ -26,7 +26,13 @@ nav{
         }
         a{
             text-decoration: none;
-            // margin-right: 1.5em;
+        }
+        input{
+            -webkit-appearance:none ;
+            height: 30px;
+            width: 30px;
+            border-radius: 360px;
+            background-color: #505961;
         }
         button{
             background-color:#FEB34F;
@@ -39,6 +45,16 @@ nav{
         a,
         button{
             color:#505961;
+        }
+    }
+    #moon-container{
+        position: relative;
+        img{
+            height: 15px;
+            width: 15px;
+            position: absolute;
+            right: 7px;
+            top: 7px;
         }
     }
 }
