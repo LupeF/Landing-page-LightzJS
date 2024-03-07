@@ -343,7 +343,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 4em;
+  padding: 0 6em;
 }
 nav #logo-container {
   color: #FEB34F;
@@ -383,12 +383,16 @@ nav #links-container button {
 
 #content-container {
   display: flex;
-  width: 90%;
+  justify-content: space-around;
   margin: auto;
   max-width: 1200px;
+  color: #505961;
+  padding: 5em;
 }
 #content-container #content {
-  margin-right: 4em;
+  margin-right: 2em;
+  font-size: large;
+  max-width: 500px;
 }
 #content-container button {
   background-color: #FEB34F;
@@ -400,7 +404,7 @@ nav #links-container button {
   color: white;
 }
 #content-container img {
-  height: 450px;
+  height: 350px;
   width: 450px;
 }
 
@@ -411,16 +415,21 @@ nav #links-container button {
   flex-direction: column;
   align-items: center;
 }
+#features-container h2 {
+  font-size: xx-large;
+}
 #features-container .flex {
   display: flex;
-  width: 80%;
+  width: 75%;
   padding: 1.5em;
 }
 #features-container .flex + .flex {
   width: 70%;
+  margin-left: 8em;
 }
 #features-container .icon-container {
   display: flex;
+  max-width: 500px;
 }
 #features-container .icon-container img {
   border: solid 1px gray;
@@ -437,7 +446,7 @@ footer {
   background-color: #24282B;
 }
 footer .list-container {
-  margin: 3em;
+  margin: 3em 5em;
 }
 footer li {
   list-style-type: none;
