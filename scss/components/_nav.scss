@@ -28,13 +28,6 @@ nav{
         a{
             text-decoration: none;
         }
-        input{
-            -webkit-appearance:none ;
-            height: 30px;
-            width: 30px;
-            border-radius: 360px;
-            background-color: #505961;
-        }
         button{
             background-color:#FEB34F;
             border: none;
@@ -50,15 +43,23 @@ nav{
     }
     #moon-container{
         position: relative;
+        height: 30px;
+        width: 30px;
+        border-radius: 360px;
+        background-color: #505961;
         &:hover{
             cursor: pointer;
         }
-        img{
+        #moon-icon,
+        #sun-icon{
             height: 15px;
             width: 15px;
             position: absolute;
             right: 7px;
             top: 7px;
+        }
+        #sun-icon{
+            display: none;
         }
     }
 }

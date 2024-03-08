@@ -373,13 +373,6 @@ nav #links-container ul li {
 nav #links-container a {
   text-decoration: none;
 }
-nav #links-container input {
-  -webkit-appearance: none;
-  height: 30px;
-  width: 30px;
-  border-radius: 360px;
-  background-color: #505961;
-}
 nav #links-container button {
   background-color: #FEB34F;
   border: none;
@@ -394,16 +387,24 @@ nav #links-container button {
 }
 nav #moon-container {
   position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 360px;
+  background-color: #505961;
 }
 nav #moon-container:hover {
   cursor: pointer;
 }
-nav #moon-container img {
+nav #moon-container #moon-icon,
+nav #moon-container #sun-icon {
   height: 15px;
   width: 15px;
   position: absolute;
   right: 7px;
   top: 7px;
+}
+nav #moon-container #sun-icon {
+  display: none;
 }
 
 #content-container {
